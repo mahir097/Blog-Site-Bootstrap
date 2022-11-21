@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Awesome Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="navbar-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="blogs.html" class="nav-link active">Blogs</a>
+            </li>
+            <li class="navbar-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input type="text" class="form-control me-1" placeholder="Search" />
+            <button class="btn-warning">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-md-3 order-2 order-md-1">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action"
+                >Category 1</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Category 2</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Category 3</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Category 4</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-9 order-1 order-md-2">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+              </ol>
+            </nav>
+            <div class="card mb-2 shadow">
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded-start"
+                    src="https://images.unsplash.com/photo-1610878180933-123728745d22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuYWRhJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Doloremque, harum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 shadow">
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded-start"
+                    src="https://img-4.linternaute.com/0efC7-fKD0qAHCUcChtSVXT9Ego=/1500x/smart/43f787f117784c3fa9a928194bd91d5e/ccmcms-linternaute/12325430.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Doloremque, harum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 shadow">
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    class="img-fluid rounded-start"
+                    src="https://static.vecteezy.com/system/resources/previews/000/705/242/non_2x/emerald-lake-yoho-national-park-british-columbia-canada-photo.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Doloremque, harum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav>
+              <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                  <a href="#" class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a href="" class="page-link">1</a></li>
+                <li class="page-item"><a href="" class="page-link">2</a></li>
+                <li class="page-item"><a href="" class="page-link">3</a></li>
+                <li class="page-item"><a href="" class="page-link">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-5 bg-dark text-white">
+      <div class="container text-center">
+        <div>All Rights Reserved.@2022</div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/01631cd898.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
